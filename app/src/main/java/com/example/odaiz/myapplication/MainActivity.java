@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -55,6 +56,9 @@ public class MainActivity extends Activity {
 
     // The method that displays the popup.
     private void showPopup(final Activity context, Point p) {
+
+        Toast.makeText(context,"fasdfsfs",Toast.LENGTH_SHORT).show();
+
         int popupWidth = 300;
         int popupHeight = 300;
 

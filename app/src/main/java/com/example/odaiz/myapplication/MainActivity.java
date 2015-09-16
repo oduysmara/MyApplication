@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 
     // The method that displays the popup.
     private void showPopup(final Activity context, Point p) {
-        int popupWidth = 500;
+        int popupWidth = 1000;
         int popupHeight = 500;
 
         // Inflate the popup_layout.xml
